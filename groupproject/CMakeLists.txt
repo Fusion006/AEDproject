@@ -3,4 +3,6 @@ project(groupproject)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(groupproject main.cpp)
+add_executable(groupproject main.cpp
+        classucloader.cpp
+        classucloader.h)

@@ -1,0 +1,13 @@
+Class:
+- UC code (university course code)
+- weekday
+- start hour
+- duration
+- type (can be T, TP or PL)
+
+Schedule is composed by many classes
+
+Student:
+- name
+- schedule
+- student code
