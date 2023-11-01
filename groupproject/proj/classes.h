@@ -11,8 +11,8 @@ public:
     string classcode_;
     string uccode_;
     string weekday_;
-    string starthour_;
-    string duration_;
+    double starthour_;
+    double duration_;
     string type_;
 };
 
