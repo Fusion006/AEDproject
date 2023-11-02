@@ -1,0 +1,3 @@
+/home/dark/CLionProjects/proj/cmake-build-debug/CMakeFiles/proj.dir
+/home/dark/CLionProjects/proj/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dark/CLionProjects/proj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
