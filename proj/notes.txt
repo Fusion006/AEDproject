@@ -1,0 +1,36 @@
+classes.cpp {
+▹ reads file classes.csv
+▹ getters and setters
+▹ function parseclassesinfo {
+    ▹ returns a vector called classes in main.cpp
+    ▹ classinfo objects have specific attributes:
+    ▶ classcode
+    ▶ uccode
+    ▶ weekday
+    ▶ starthour
+    ▶ duration
+    ▶ type
+}
+}
+
+classesperucclass.cpp {
+▹ reads file classes_per_uc.csv
+▹ function parseclasses {
+    ▹ returns a vector called classinfo in main.cpp
+    ▹ classinfo objects have specific attributes:
+    ▶ classcode
+    ▶ uccode
+}
+}
+
+studentclasses.cpp {
+▹ reads file students_classes.csv
+▹ function studentclassinfo {
+    ▹ returns a vector called studentinfo in main.cpp
+    ▹ classinfo objects have specific attributes:
+    ▶ studentcode
+    ▶ studentname
+    ▶ uccode
+    ▶ classcode
+}
+}
