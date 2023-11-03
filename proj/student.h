@@ -12,7 +12,7 @@ class student {
 private:
     string studentcode_;
     string studentname_;
-    vector<student> studentlist;
+    vector<student> studentlistinclass;
 public:
     student(string studentcode_, string studentname_);
     string getstudentcode() const;

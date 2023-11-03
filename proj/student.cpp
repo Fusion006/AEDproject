@@ -13,17 +13,17 @@ void student::setstudentname(const string& newname) { studentname_ = newname; }
 //▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 
 void student::addnewstudent(student& newstudent){
-    if (find(studentlist.begin(), studentlist.end(), newstudent) == studentlist.end()) {
-        studentlist.push_back(newstudent);
+    if (find(studentlistinclass.begin(), studentlistinclass.end(), newstudent) == studentlistinclass.end()) {
+        studentlistinclass.push_back(newstudent);
         cout << "Added student with code " << newstudent.getstudentcode();
     }
     else cout << "Student with code " << newstudent.getstudentcode() << "has already been added." << endl;
 }
 
 void student::removestudent(string& studentcode) {
-    for (auto i = studentlist.begin(); i != studentlist.end(); i++) {
+    for (auto i = studentlistinclass.begin(); i != studentlistinclass.end(); i++) {
         if (i->getstudentcode() == studentcode) {
-            studentlist.erase(i);
+            studentlistinclass.erase(i);
             cout << "Removed student with code: " << studentcode << endl;
             return; // return with no value associated, so we can break the function
         }
